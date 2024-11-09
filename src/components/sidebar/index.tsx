@@ -12,15 +12,17 @@ import {
     Settings2, LeafyGreen, SquareMenu,
     ChartLine, HeartPulse, UtensilsCrossed, Megaphone,
     Volleyball, Mic, Search, Bell,
-    Globe, } from "lucide-react";
+    Globe,
+} from "lucide-react";
 
-import { 
-    DialogTitle, 
-    DialogTrigger, 
-    DialogContent, 
-    DialogDescription, 
-    DialogFooter, 
-    DialogHeader } from "@/components/ui/dialog"
+import {
+    DialogTitle,
+    DialogTrigger,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader
+} from "@/components/ui/dialog"
 
 import {
     Tooltip,
@@ -343,25 +345,14 @@ export function Sidebar() {
                             </Button>
 
 
-
                             <Button>
                                 <Mic className="w-6 h-6" />
                             </Button>
 
 
-                            <div className="flex items-center justify-center gap-4">
-                                <div className="flex items-center justify-center gap-3">
-
-                                    <Button className="bg-transparent hover:bg-transparent">
-                                        <Bell className="text-gray-950 w-8 h-8" />
-                                    </Button>
-
-                                </div>
-                            </div>
-
                             <Dialog>
                                 <DialogTrigger asChild>
-                                    <Button  className="w-1/3 bg-muted hover:bg-gray-200">
+                                    <Button className="w-1/3 bg-muted hover:bg-gray-200">
                                         <Avatar className="flex items-center w-full text-gray-300 justify-center">
                                             <AvatarImage
                                                 src="https://github.com/shadcn.png"
