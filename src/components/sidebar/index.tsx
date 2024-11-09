@@ -1,13 +1,20 @@
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
+import { Dialog } from "@radix-ui/react-dialog";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input"
+import Link from "next/link";
+
 import {
-    Home, Users,
+    Home, Users, HandHeart,
     Settings2, LeafyGreen, SquareMenu,
     ChartLine, HeartPulse, UtensilsCrossed, Megaphone,
     Volleyball, Mic, Search, Bell,
-    Globe,
-    HandHeart
-} from "lucide-react";
+    Globe, } from "lucide-react";
 
-import { DialogTitle, 
+import { 
+    DialogTitle, 
     DialogTrigger, 
     DialogContent, 
     DialogDescription, 
@@ -21,13 +28,6 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
-import { Dialog } from "@radix-ui/react-dialog";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"
-import Link from "next/link";
 
 
 
