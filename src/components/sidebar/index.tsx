@@ -21,8 +21,8 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip"
 
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import { Dialog } from "@radix-ui/react-dialog";
 import { Button } from "@/components/ui/button";
