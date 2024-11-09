@@ -1,16 +1,21 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
     <main className="sm:ml-14 md:mt-20 mb-4 p-4">
       <section className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 
+
         <Card>
           <CardHeader>
             <img
-              src="https://th.bing.com/th?id=OVFT.UhOQTkSTKlhgwG1ACHUo_y&pid=News&w=300&h=186&c=14&rs=2&qlt=90"
+              src="https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg"
               alt=""
+              width={300}
+              height={186}
               className="w-full rounded-lg"
             />
             <div className="flex items-center ">
@@ -39,9 +44,11 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <img
-              src="https://th.bing.com/th?id=OVFT.UhOQTkSTKlhgwG1ACHUo_y&pid=News&w=300&h=186&c=14&rs=2&qlt=90"
+          <img
+              src="https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg"
               alt=""
+              width={300}
+              height={186}
               className="w-full rounded-lg"
             />
             <div className="flex items-center ">
@@ -69,9 +76,11 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <img
-              src="https://th.bing.com/th?id=OVFT.UhOQTkSTKlhgwG1ACHUo_y&pid=News&w=300&h=186&c=14&rs=2&qlt=90"
+          <img
+              src="https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg"
               alt=""
+              width={300}
+              height={186}
               className="w-full rounded-lg"
             />
             <div className="flex items-center ">
@@ -99,9 +108,11 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <img
-              src="https://th.bing.com/th?id=OVFT.UhOQTkSTKlhgwG1ACHUo_y&pid=News&w=300&h=186&c=14&rs=2&qlt=90"
+          <img
+              src="https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg"
               alt=""
+              width={300}
+              height={186}
               className="w-full rounded-lg"
             />
             <div className="flex items-center ">
@@ -129,9 +140,11 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <img
-              src="https://th.bing.com/th?id=OVFT.UhOQTkSTKlhgwG1ACHUo_y&pid=News&w=300&h=186&c=14&rs=2&qlt=90"
+          <img
+              src="https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg"
               alt=""
+              width={300}
+              height={186}
               className="w-full rounded-lg"
             />
             <div className="flex items-center ">
@@ -159,9 +172,11 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <img
-              src="https://th.bing.com/th?id=OVFT.UhOQTkSTKlhgwG1ACHUo_y&pid=News&w=300&h=186&c=14&rs=2&qlt=90"
+          <img
+              src="https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg"
               alt=""
+              width={300}
+              height={186}
               className="w-full rounded-lg"
             />
             <div className="flex items-center ">
