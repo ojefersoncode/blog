@@ -1,27 +1,33 @@
 import {
-    Package, Home, Users,
-    Settings2, LogOut, LeafyGreen, SquareMenu,
+    Home, Users,
+    Settings2, LeafyGreen, SquareMenu,
     ChartLine, HeartPulse, UtensilsCrossed, Megaphone,
     Volleyball, Mic, Search, Bell,
     Globe,
     HandHeart
 } from "lucide-react";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { VisuallyHidden } from "@radix-ui/react-Visually-Hidden"
-import { DialogTitle, DialogTrigger, DialogContent, DialogDescription, DialogFooter, DialogHeader } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import Link from "next/link";
+import { DialogTitle, 
+    DialogTrigger, 
+    DialogContent, 
+    DialogDescription, 
+    DialogFooter, 
+    DialogHeader } from "@/components/ui/dialog"
+
 import {
     Tooltip,
     TooltipContent,
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip"
+
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import { Dialog } from "@radix-ui/react-dialog";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input"
+import Link from "next/link";
 
 
 
